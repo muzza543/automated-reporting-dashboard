@@ -1,0 +1,501 @@
+ticket_id,client,issue_type,priority,date_opened,resolution_time,date_closed,status
+1,Rivers Inc,Login,Medium,2025-06-05 19:44:04,,,Open
+2,Lam-Clark,Hardware,High,2025-05-05 17:19:05,,,Open
+3,Norris and Sons,Login,Medium,2025-08-17 23:55:32,,,In Progress
+4,Smith-Jones,Software,Low,2025-07-27 20:26:17,,,Open
+5,Jefferson-Martinez,Login,Medium,2025-07-26 07:58:52,,,Open
+6,Compton PLC,Software,Low,2025-05-15 01:26:00,,,Open
+7,Decker Group,Network,High,2025-02-17 06:31:07,,,In Progress
+8,Villarreal and Sons,Software,Low,2025-08-29 06:59:26,,,Open
+9,"Hicks, Hunter and Meyers",Hardware,High,2025-02-12 02:23:23,,,In Progress
+10,Valdez PLC,Hardware,High,2025-02-18 18:30:25,60.0,2025-02-21 06:30:25,Closed
+11,"Medina, Williams and Lee",Login,Medium,2025-02-16 08:06:16,,,Open
+12,Johnson Inc,Network,High,2025-07-26 05:30:09,29.0,2025-07-27 10:30:09,Closed
+13,"Mayer, Pearson and York",Software,Low,2025-04-23 17:56:44,12.0,2025-04-24 05:56:44,Closed
+14,Bond LLC,Login,Medium,2025-05-13 05:43:40,,,Open
+15,Trevino and Sons,Network,High,2025-06-28 20:26:47,,,In Progress
+16,Thomas-Wells,Software,Low,2025-03-02 10:18:59,70.0,2025-03-05 08:18:59,Closed
+17,Fernandez Inc,Login,Medium,2025-01-29 02:24:26,,,In Progress
+18,Summers-Hall,Network,High,2025-03-24 05:29:47,46.0,2025-03-26 03:29:47,Closed
+19,Holmes-Lowe,Login,Medium,2025-03-17 18:53:00,43.0,2025-03-19 13:53:00,Closed
+20,Young Inc,Hardware,High,2025-03-07 04:10:16,,,In Progress
+21,Willis Inc,Network,High,2025-03-19 19:28:14,25.0,2025-03-20 20:28:14,Closed
+22,"Dillon, Patterson and Vargas",Hardware,High,2025-07-17 12:31:53,10.0,2025-07-17 22:31:53,Closed
+23,Ross Ltd,Hardware,High,2025-08-10 23:22:09,,,Open
+24,Robles PLC,Software,Low,2025-04-10 22:54:23,,,Open
+25,Williams-Murphy,Hardware,High,2025-06-02 19:23:36,65.0,2025-06-05 12:23:36,Closed
+26,"Zuniga, Thomas and Burch",Hardware,High,2025-06-14 05:21:51,,,In Progress
+27,Bennett LLC,Login,Medium,2025-01-10 08:54:03,,,In Progress
+28,Finley Group,Software,Low,2025-07-05 20:06:23,,,In Progress
+29,"Garner, Jackson and Wright",Hardware,High,2025-04-24 22:52:25,,,In Progress
+30,Cervantes-Miller,Hardware,High,2025-03-12 23:37:01,,,In Progress
+31,Gonzalez Ltd,Login,Medium,2025-02-26 20:39:44,,,In Progress
+32,Harris-Short,Network,High,2025-06-28 10:58:20,,,In Progress
+33,"Maldonado, Kelley and Brown",Hardware,High,2025-08-10 22:19:17,,,In Progress
+34,Walker and Sons,Login,Medium,2025-08-02 13:49:15,54.0,2025-08-04 19:49:15,Closed
+35,"Henderson, Garcia and Miller",Software,Low,2025-03-26 00:45:51,,,In Progress
+36,Perez Group,Hardware,High,2025-03-22 20:18:49,,,In Progress
+37,"Alvarez, Cantu and Brown",Software,Low,2025-01-21 04:48:47,,,Open
+38,"Schultz, Potter and Pearson",Hardware,High,2025-06-19 05:15:44,58.0,2025-06-21 15:15:44,Closed
+39,Payne-Walsh,Software,Low,2025-02-12 03:21:42,,,In Progress
+40,Jensen Group,Network,High,2025-08-09 08:26:20,,,Open
+41,Ward PLC,Network,High,2025-02-22 02:15:36,,,In Progress
+42,"Aguilar, Wilson and Schaefer",Hardware,High,2025-01-14 09:27:40,,,Open
+43,Nixon Inc,Hardware,High,2025-02-09 03:26:36,14.0,2025-02-09 17:26:36,Closed
+44,Hart PLC,Login,Medium,2025-08-30 02:39:03,,,Open
+45,"Weaver, Bolton and Brown",Login,Medium,2025-06-01 23:07:41,,,Open
+46,Palmer LLC,Hardware,High,2025-04-15 05:49:35,,,Open
+47,"Davis, Bell and Taylor",Hardware,High,2025-07-11 07:46:17,,,In Progress
+48,"Klein, Moon and Cox",Software,Low,2025-05-21 15:40:55,29.0,2025-05-22 20:40:55,Closed
+49,Mclean-Melendez,Software,Low,2025-05-06 04:59:50,20.0,2025-05-07 00:59:50,Closed
+50,Campbell-Gallagher,Hardware,High,2025-09-02 02:38:47,32.0,2025-09-03 10:38:47,Closed
+51,"Bryant, Johnson and Velazquez",Login,Medium,2025-02-03 17:04:49,,,Open
+52,Brady-Williams,Network,High,2025-07-03 16:04:20,,,In Progress
+53,"Russell, Jackson and Baker",Login,Medium,2025-01-13 08:22:51,,,Open
+54,Richardson-Mejia,Login,Medium,2025-04-17 10:02:25,,,In Progress
+55,Stevens and Sons,Software,Low,2025-01-09 02:50:38,,,In Progress
+56,Chavez Group,Login,Medium,2025-08-17 04:28:53,,,In Progress
+57,Pierce-West,Software,Low,2025-01-24 20:26:13,38.0,2025-01-26 10:26:13,Closed
+58,Richardson-Wright,Network,High,2025-01-29 14:40:36,,,In Progress
+59,Spencer-Hill,Login,Medium,2025-01-05 15:20:47,,,In Progress
+60,Gutierrez-Freeman,Login,Medium,2025-08-13 21:48:24,,,In Progress
+61,Hartman Ltd,Login,Medium,2025-07-17 22:01:33,,,In Progress
+62,Hull and Sons,Hardware,High,2025-04-09 03:34:33,,,Open
+63,Garrett Ltd,Software,Low,2025-04-20 04:09:12,,,In Progress
+64,Frey-Chang,Software,Low,2025-05-10 09:32:11,,,Open
+65,"Silva, Flores and Lewis",Hardware,High,2025-06-18 09:27:51,37.0,2025-06-19 22:27:51,Closed
+66,Johnson Group,Software,Low,2025-04-26 14:21:33,13.0,2025-04-27 03:21:33,Closed
+67,Gonzalez Group,Hardware,High,2025-03-13 04:11:57,,,In Progress
+68,"Bennett, Acevedo and Palmer",Login,Medium,2025-01-06 06:41:07,,,In Progress
+69,Dalton Inc,Hardware,High,2025-01-07 18:49:39,,,Open
+70,Clark LLC,Network,High,2025-01-12 10:02:49,,,In Progress
+71,"Cochran, Carter and Walls",Software,Low,2025-07-19 04:00:58,,,In Progress
+72,Davis-Weaver,Login,Medium,2025-06-10 14:59:23,13.0,2025-06-11 03:59:23,Closed
+73,Berry LLC,Hardware,High,2025-07-27 16:56:59,9.0,2025-07-28 01:56:59,Closed
+74,Cabrera-Ortega,Login,Medium,2025-03-11 01:16:45,16.0,2025-03-11 17:16:45,Closed
+75,Reese Group,Hardware,High,2025-04-01 20:37:20,,,Open
+76,White LLC,Software,Low,2025-03-02 17:41:45,58.0,2025-03-05 03:41:45,Closed
+77,"Campbell, Rogers and Diaz",Hardware,High,2025-03-27 01:25:34,,,Open
+78,Flores Group,Login,Medium,2025-06-15 11:29:19,,,Open
+79,Wilson-Gray,Hardware,High,2025-08-25 20:43:26,50.0,2025-08-27 22:43:26,Closed
+80,"Spencer, Miranda and Perez",Hardware,High,2025-02-04 08:17:56,,,Open
+81,Reed Ltd,Software,Low,2025-06-05 17:31:19,,,Open
+82,Adams-Parks,Login,Medium,2025-08-12 09:58:00,,,In Progress
+83,Parker-Patrick,Login,Medium,2025-05-05 02:55:04,,,In Progress
+84,Rodriguez-York,Software,Low,2025-01-23 14:06:20,,,Open
+85,"Johnson, Gross and Bell",Login,Medium,2025-02-25 09:11:54,,,Open
+86,Ramirez PLC,Hardware,High,2025-01-18 19:09:40,,,Open
+87,Baker-Hill,Software,Low,2025-08-27 13:28:31,,,In Progress
+88,Randolph-Knight,Network,High,2025-06-28 05:06:45,,,Open
+89,Peters Inc,Software,Low,2025-05-23 23:30:47,,,Open
+90,Lopez-Hanson,Hardware,High,2025-06-02 00:52:05,,,In Progress
+91,Chandler PLC,Login,Medium,2025-01-09 02:51:13,4.0,2025-01-09 06:51:13,Closed
+92,Smith and Sons,Software,Low,2025-04-23 09:07:05,25.0,2025-04-24 10:07:05,Closed
+93,Mcintyre-Pham,Login,Medium,2025-03-30 21:05:13,,,In Progress
+94,Clark-Jacobson,Network,High,2025-02-27 20:31:59,12.0,2025-02-28 08:31:59,Closed
+95,Fernandez-Williams,Software,Low,2025-01-16 19:01:58,72.0,2025-01-19 19:01:58,Closed
+96,Kent-Campbell,Software,Low,2025-07-09 08:41:12,,,Open
+97,Coleman LLC,Network,High,2025-06-21 22:13:48,,,In Progress
+98,Brown-Hall,Software,Low,2025-07-13 12:41:27,60.0,2025-07-16 00:41:27,Closed
+99,Beck-Davis,Software,Low,2025-05-09 20:48:54,,,Open
+100,"Garcia, Nelson and Chavez",Login,Medium,2025-03-07 21:15:37,43.0,2025-03-09 16:15:37,Closed
+101,Schultz-Whitehead,Software,Low,2025-03-21 09:23:13,46.0,2025-03-23 07:23:13,Closed
+102,"Frey, Lozano and Baker",Hardware,High,2025-02-22 02:58:45,,,In Progress
+103,"Woodward, Smith and Smith",Login,Medium,2025-01-03 12:46:20,25.0,2025-01-04 13:46:20,Closed
+104,Montgomery-Hayes,Hardware,High,2025-08-17 23:21:44,14.0,2025-08-18 13:21:44,Closed
+105,"Baxter, Dawson and English",Software,Low,2025-01-22 00:44:57,40.0,2025-01-23 16:44:57,Closed
+106,Patterson and Sons,Network,High,2025-08-28 04:45:04,,,In Progress
+107,Jackson-Hodge,Login,Medium,2025-07-01 14:40:10,,,Open
+108,"Marshall, Kirby and Wilson",Login,Medium,2025-08-06 20:42:45,,,Open
+109,Dominguez-Boyd,Software,Low,2025-05-18 02:25:00,,,In Progress
+110,Waters-Monroe,Software,Low,2025-05-31 01:01:33,27.0,2025-06-01 04:01:33,Closed
+111,Anderson Group,Login,Medium,2025-05-30 11:18:03,,,Open
+112,"Thomas, Lynch and Clark",Login,Medium,2025-02-18 15:05:56,,,In Progress
+113,Ewing-Cooper,Software,Low,2025-05-08 20:16:14,,,Open
+114,Hebert-White,Hardware,High,2025-05-13 05:46:18,,,Open
+115,"Stafford, Wright and Smith",Hardware,High,2025-07-05 01:06:58,,,Open
+116,Vargas LLC,Login,Medium,2025-04-13 17:25:17,,,Open
+117,"Mcdonald, Velasquez and Blackwell",Network,High,2025-02-18 06:07:24,,,Open
+118,Arroyo-Washington,Network,High,2025-07-12 10:00:29,26.0,2025-07-13 12:00:29,Closed
+119,"Miller, Robles and Blankenship",Hardware,High,2025-04-10 08:58:09,37.0,2025-04-11 21:58:09,Closed
+120,"Green, Rogers and Ortiz",Login,Medium,2025-08-27 08:15:55,,,In Progress
+121,"Ross, Riddle and Keith",Hardware,High,2025-03-24 06:58:39,,,In Progress
+122,Abbott-Marshall,Network,High,2025-02-25 06:21:16,45.0,2025-02-27 03:21:16,Closed
+123,"Stephens, Morris and Gallagher",Network,High,2025-04-26 18:54:58,,,In Progress
+124,"Hill, Murphy and Johnson",Login,Medium,2025-03-04 01:00:43,,,In Progress
+125,Estrada-Norris,Network,High,2025-06-23 17:49:03,,,Open
+126,"Bowers, Anderson and Harrison",Login,Medium,2025-05-14 05:36:52,40.0,2025-05-15 21:36:52,Closed
+127,"Butler, Elliott and Larson",Network,High,2025-03-24 19:16:07,,,In Progress
+128,"Mcdaniel, Ramirez and Henderson",Network,High,2025-05-23 15:15:39,7.0,2025-05-23 22:15:39,Closed
+129,"Potts, Sexton and Schmidt",Software,Low,2025-06-17 11:18:42,,,Open
+130,Snyder-Lara,Login,Medium,2025-01-01 14:04:53,,,In Progress
+131,Martinez PLC,Network,High,2025-08-07 06:29:38,64.0,2025-08-09 22:29:38,Closed
+132,Kim Ltd,Software,Low,2025-05-28 01:10:50,,,In Progress
+133,Moon Group,Software,Low,2025-03-28 22:24:19,69.0,2025-03-31 19:24:19,Closed
+134,"Buckley, Gay and Hernandez",Network,High,2025-01-29 10:48:56,,,In Progress
+135,Padilla-Medina,Software,Low,2025-01-17 04:22:23,,,In Progress
+136,Levine-Lowe,Network,High,2025-05-22 07:30:01,,,In Progress
+137,"Mckinney, Vazquez and Cisneros",Network,High,2025-07-07 22:02:32,55.0,2025-07-10 05:02:32,Closed
+138,Cabrera-Lawson,Network,High,2025-03-26 23:10:09,68.0,2025-03-29 19:10:09,Closed
+139,"Tran, Snyder and Davenport",Hardware,High,2025-05-08 21:00:52,,,Open
+140,"Norton, Robertson and Diaz",Network,High,2025-06-25 17:17:13,,,In Progress
+141,"Frederick, Taylor and Sherman",Network,High,2025-03-14 23:13:14,,,Open
+142,"Ramirez, Garcia and Luna",Hardware,High,2025-03-06 11:14:22,40.0,2025-03-08 03:14:22,Closed
+143,Norman-Williams,Software,Low,2025-07-03 10:12:26,,,In Progress
+144,Mclean and Sons,Hardware,High,2025-05-12 05:44:00,7.0,2025-05-12 12:44:00,Closed
+145,Anderson-Lewis,Hardware,High,2025-01-16 21:54:29,26.0,2025-01-17 23:54:29,Closed
+146,Kent-Adams,Network,High,2025-06-17 00:43:51,,,Open
+147,"Pratt, Allison and Nunez",Login,Medium,2025-05-13 09:04:48,40.0,2025-05-15 01:04:48,Closed
+148,Flores Inc,Software,Low,2025-05-14 07:42:11,,,Open
+149,"Brock, Contreras and Allen",Software,Low,2025-07-30 14:18:58,57.0,2025-08-01 23:18:58,Closed
+150,Payne Group,Hardware,High,2025-08-27 09:37:43,,,In Progress
+151,Rodriguez-Navarro,Network,High,2025-05-20 05:52:05,,,In Progress
+152,Martinez-Clements,Software,Low,2025-01-24 05:08:53,,,In Progress
+153,Fry-Coleman,Software,Low,2025-04-01 05:11:01,29.0,2025-04-02 10:11:01,Closed
+154,Rodgers and Sons,Software,Low,2025-07-09 20:44:30,26.0,2025-07-10 22:44:30,Closed
+155,Jenkins Ltd,Hardware,High,2025-01-18 18:46:25,52.0,2025-01-20 22:46:25,Closed
+156,Molina-Smith,Network,High,2025-01-16 19:55:57,,,In Progress
+157,Reed-Medina,Network,High,2025-09-01 21:27:04,,,In Progress
+158,Schmitt-Hunt,Software,Low,2025-07-05 21:10:55,,,In Progress
+159,Mata-Morris,Login,Medium,2025-02-08 07:02:03,,,Open
+160,Harris Ltd,Software,Low,2025-04-12 18:07:57,,,Open
+161,Barry-Bishop,Login,Medium,2025-07-11 22:41:50,24.0,2025-07-12 22:41:50,Closed
+162,Peterson-Bender,Network,High,2025-01-29 09:48:11,,,Open
+163,"Hayes, Jacobson and Davis",Software,Low,2025-04-18 20:50:30,40.0,2025-04-20 12:50:30,Closed
+164,Flores-Acevedo,Login,Medium,2025-08-22 08:14:23,,,Open
+165,Miller PLC,Software,Low,2025-08-09 16:23:39,,,In Progress
+166,"Myers, Pruitt and Porter",Login,Medium,2025-07-07 01:18:06,,,In Progress
+167,Faulkner-King,Network,High,2025-06-23 22:49:52,,,In Progress
+168,Mayer-Jones,Login,Medium,2025-04-05 19:53:01,,,In Progress
+169,"Whitney, Crawford and Finley",Software,Low,2025-04-09 19:50:51,,,Open
+170,"Avery, Campbell and Ryan",Hardware,High,2025-02-27 22:02:26,43.0,2025-03-01 17:02:26,Closed
+171,"Contreras, Martinez and Nelson",Hardware,High,2025-05-31 05:45:03,,,Open
+172,"Ross, Chambers and Wiley",Login,Medium,2025-01-28 22:46:00,66.0,2025-01-31 16:46:00,Closed
+173,Mendez-Osborne,Network,High,2025-08-20 16:31:19,34.0,2025-08-22 02:31:19,Closed
+174,"Solomon, Robinson and Klein",Hardware,High,2025-01-29 13:57:37,35.0,2025-01-31 00:57:37,Closed
+175,"Gonzales, Thompson and Mason",Network,High,2025-05-21 01:00:30,,,In Progress
+176,Sawyer Inc,Login,Medium,2025-07-04 03:55:50,,,Open
+177,Allen Group,Network,High,2025-05-21 13:40:55,61.0,2025-05-24 02:40:55,Closed
+178,Lynch Group,Login,Medium,2025-04-08 10:09:14,,,In Progress
+179,Duran Inc,Software,Low,2025-07-10 18:23:55,64.0,2025-07-13 10:23:55,Closed
+180,Wolfe-Vega,Network,High,2025-03-14 07:05:32,25.0,2025-03-15 08:05:32,Closed
+181,"Bean, Garcia and Neal",Hardware,High,2025-04-25 00:30:15,,,Open
+182,"Jackson, Mcguire and Gross",Login,Medium,2025-01-22 09:16:35,11.0,2025-01-22 20:16:35,Closed
+183,"Rivera, Newman and Robinson",Network,High,2025-05-31 12:21:58,,,In Progress
+184,Atkinson Ltd,Login,Medium,2025-07-17 21:31:01,,,In Progress
+185,"Carter, Lamb and Campbell",Login,Medium,2025-04-11 10:20:47,,,In Progress
+186,Rangel Ltd,Login,Medium,2025-07-03 03:13:04,,,In Progress
+187,Hill LLC,Software,Low,2025-08-28 14:54:31,50.0,2025-08-30 16:54:31,Closed
+188,"Lloyd, Blake and Irwin",Software,Low,2025-02-13 03:00:07,,,Open
+189,Koch-Hill,Software,Low,2025-07-18 09:42:51,,,Open
+190,Mclaughlin-Thomas,Software,Low,2025-05-10 23:07:20,,,Open
+191,Delgado-Hodge,Login,Medium,2025-03-06 12:23:34,,,In Progress
+192,Freeman-Johnson,Software,Low,2025-04-09 11:06:00,70.0,2025-04-12 09:06:00,Closed
+193,Clarke Inc,Network,High,2025-03-30 05:00:26,,,In Progress
+194,Williams-Smith,Software,Low,2025-08-10 05:32:05,24.0,2025-08-11 05:32:05,Closed
+195,Nixon PLC,Network,High,2025-08-24 21:48:14,,,In Progress
+196,Allen and Sons,Hardware,High,2025-03-13 07:04:55,48.0,2025-03-15 07:04:55,Closed
+197,Holland-Wright,Login,Medium,2025-08-07 17:39:09,,,In Progress
+198,"Miller, Ross and Ross",Hardware,High,2025-06-04 10:27:21,,,Open
+199,Sparks Inc,Network,High,2025-07-12 04:37:53,30.0,2025-07-13 10:37:53,Closed
+200,Wilson LLC,Network,High,2025-02-28 20:09:51,,,Open
+201,"Williams, Medina and Thompson",Hardware,High,2025-03-11 07:58:20,,,Open
+202,Harrison Inc,Software,Low,2025-04-13 08:09:52,,,Open
+203,Hebert and Sons,Network,High,2025-03-13 13:51:48,,,Open
+204,Clark-Robertson,Software,Low,2025-06-14 09:13:31,,,In Progress
+205,Garcia Ltd,Login,Medium,2025-01-07 10:40:38,,,In Progress
+206,Burton PLC,Hardware,High,2025-06-10 07:10:33,,,In Progress
+207,Jones Ltd,Software,Low,2025-05-17 11:25:16,25.0,2025-05-18 12:25:16,Closed
+208,"Sharp, Cordova and Hicks",Hardware,High,2025-03-13 08:16:36,,,In Progress
+209,"Russell, Taylor and Perez",Login,Medium,2025-07-13 20:17:13,67.0,2025-07-16 15:17:13,Closed
+210,"Juarez, Harvey and Weeks",Login,Medium,2025-05-27 22:12:06,,,Open
+211,Garcia Ltd,Login,Medium,2025-02-07 14:04:23,31.0,2025-02-08 21:04:23,Closed
+212,James Group,Hardware,High,2025-02-15 06:05:41,,,In Progress
+213,"Bell, Jackson and Larson",Software,Low,2025-07-13 06:37:08,,,Open
+214,Ingram Inc,Login,Medium,2025-08-03 21:33:12,68.0,2025-08-06 17:33:12,Closed
+215,Alvarado PLC,Network,High,2025-08-01 15:38:11,32.0,2025-08-02 23:38:11,Closed
+216,Garrett-Taylor,Login,Medium,2025-06-21 21:24:22,24.0,2025-06-22 21:24:22,Closed
+217,"Wall, Young and Wade",Login,Medium,2025-04-13 23:39:14,,,In Progress
+218,Sloan-Moyer,Hardware,High,2025-06-13 15:20:33,,,In Progress
+219,Wolfe-Hartman,Network,High,2025-06-30 22:04:11,,,In Progress
+220,Frank-Richardson,Login,Medium,2025-05-31 14:31:11,19.0,2025-06-01 09:31:11,Closed
+221,Lynch Group,Login,Medium,2025-08-24 15:00:27,56.0,2025-08-26 23:00:27,Closed
+222,"Bennett, Whitehead and Curtis",Login,Medium,2025-05-06 23:18:12,40.0,2025-05-08 15:18:12,Closed
+223,"Mcintyre, Mayo and Olson",Software,Low,2025-03-22 12:56:47,,,Open
+224,Singleton Inc,Network,High,2025-01-24 22:24:46,,,Open
+225,Smith Ltd,Hardware,High,2025-04-16 16:51:05,,,Open
+226,White LLC,Software,Low,2025-06-29 22:28:18,,,In Progress
+227,"Murray, Duke and Lopez",Network,High,2025-06-19 06:21:52,,,In Progress
+228,Smith-Monroe,Software,Low,2025-01-22 10:49:32,26.0,2025-01-23 12:49:32,Closed
+229,Huber Inc,Software,Low,2025-06-07 04:46:02,,,In Progress
+230,"Holmes, Goodman and Jenkins",Login,Medium,2025-06-07 12:22:33,,,Open
+231,Blair-Webb,Network,High,2025-04-26 21:05:11,67.0,2025-04-29 16:05:11,Closed
+232,Hernandez-Turner,Hardware,High,2025-01-16 18:51:09,4.0,2025-01-16 22:51:09,Closed
+233,"Pacheco, Shelton and Hernandez",Network,High,2025-01-04 07:24:03,,,In Progress
+234,Best PLC,Network,High,2025-06-03 08:42:23,41.0,2025-06-05 01:42:23,Closed
+235,Gray and Sons,Hardware,High,2025-04-29 00:34:56,,,In Progress
+236,"Garcia, Blair and Sanders",Login,Medium,2025-06-06 03:57:47,65.0,2025-06-08 20:57:47,Closed
+237,Escobar PLC,Hardware,High,2025-05-12 18:33:13,,,Open
+238,Adams and Sons,Network,High,2025-05-19 07:42:24,,,In Progress
+239,"Jones, Williams and Atkinson",Network,High,2025-04-04 07:18:15,,,In Progress
+240,Arellano-Burns,Hardware,High,2025-07-31 16:30:07,15.0,2025-08-01 07:30:07,Closed
+241,"Scott, Rodriguez and Jones",Hardware,High,2025-06-01 23:29:03,53.0,2025-06-04 04:29:03,Closed
+242,Campbell-Washington,Hardware,High,2025-06-26 23:16:25,,,In Progress
+243,Rogers and Sons,Hardware,High,2025-03-07 20:48:13,,,In Progress
+244,Stewart LLC,Software,Low,2025-04-15 08:22:56,58.0,2025-04-17 18:22:56,Closed
+245,Patel PLC,Network,High,2025-07-04 04:20:27,,,In Progress
+246,"Roberson, Kirk and Garner",Hardware,High,2025-08-25 18:44:35,62.0,2025-08-28 08:44:35,Closed
+247,Johnson-Mcneil,Hardware,High,2025-07-08 00:25:47,62.0,2025-07-10 14:25:47,Closed
+248,"Johnston, Smith and Cooper",Network,High,2025-01-28 07:20:09,50.0,2025-01-30 09:20:09,Closed
+249,Walker-Webster,Software,Low,2025-01-29 19:36:25,,,In Progress
+250,Hall-Murphy,Hardware,High,2025-08-02 21:33:36,,,Open
+251,"Hoover, Smith and Miller",Software,Low,2025-04-17 07:55:15,,,Open
+252,Jones Group,Login,Medium,2025-01-05 13:04:03,67.0,2025-01-08 08:04:03,Closed
+253,"Nguyen, Neal and White",Hardware,High,2025-03-20 22:24:00,,,In Progress
+254,"Garrett, Frank and White",Network,High,2025-06-29 19:10:50,,,Open
+255,"Clark, Miller and Brown",Software,Low,2025-08-29 13:40:52,,,Open
+256,"White, Krueger and Cordova",Network,High,2025-02-17 08:57:43,4.0,2025-02-17 12:57:43,Closed
+257,"Chan, Bowers and Carpenter",Software,Low,2025-02-06 03:15:03,,,Open
+258,"Wilson, Curry and Murphy",Network,High,2025-05-18 12:42:34,37.0,2025-05-20 01:42:34,Closed
+259,Glass-Dixon,Software,Low,2025-03-29 05:37:05,,,In Progress
+260,"Anderson, Patrick and Duke",Software,Low,2025-04-25 16:01:54,48.0,2025-04-27 16:01:54,Closed
+261,"Fitzgerald, Knight and Forbes",Login,Medium,2025-04-10 03:50:35,41.0,2025-04-11 20:50:35,Closed
+262,Potter LLC,Hardware,High,2025-06-04 07:47:13,,,In Progress
+263,Hernandez-Schmidt,Network,High,2025-07-20 13:42:48,41.0,2025-07-22 06:42:48,Closed
+264,Mcdonald-Wilson,Software,Low,2025-08-02 22:23:48,58.0,2025-08-05 08:23:48,Closed
+265,"Drake, Parsons and Green",Hardware,High,2025-03-09 18:16:40,60.0,2025-03-12 06:16:40,Closed
+266,Woods Ltd,Network,High,2025-04-17 05:02:27,,,Open
+267,Norman Inc,Hardware,High,2025-07-17 03:05:35,,,Open
+268,Bryant-Glass,Login,Medium,2025-01-14 00:25:06,,,Open
+269,"Carter, Thomas and Ross",Hardware,High,2025-05-02 19:35:12,,,Open
+270,Wilson-Kramer,Software,Low,2025-02-28 19:27:03,48.0,2025-03-02 19:27:03,Closed
+271,Martin-Williams,Network,High,2025-01-24 23:17:54,66.0,2025-01-27 17:17:54,Closed
+272,"Hill, Hayes and Curtis",Software,Low,2025-07-10 13:05:02,44.0,2025-07-12 09:05:02,Closed
+273,"Fuentes, Carroll and Farrell",Login,Medium,2025-01-04 23:23:14,62.0,2025-01-07 13:23:14,Closed
+274,Brown PLC,Network,High,2025-01-29 14:30:34,,,In Progress
+275,Weaver LLC,Software,Low,2025-02-28 19:53:11,,,Open
+276,Tran-Dodson,Network,High,2025-01-14 21:15:15,42.0,2025-01-16 15:15:15,Closed
+277,Martin and Sons,Software,Low,2025-07-17 05:45:11,63.0,2025-07-19 20:45:11,Closed
+278,Vaughan-Elliott,Hardware,High,2025-04-02 01:05:31,,,In Progress
+279,Rivera Inc,Software,Low,2025-01-08 03:21:29,,,In Progress
+280,"Lamb, Gonzales and Cummings",Network,High,2025-01-24 15:06:25,21.0,2025-01-25 12:06:25,Closed
+281,"Conrad, Bennett and Davis",Hardware,High,2025-08-14 09:32:44,,,In Progress
+282,"Stevens, Wyatt and Mcclain",Login,Medium,2025-03-16 01:32:51,,,Open
+283,"Kelley, Lozano and Roberts",Login,Medium,2025-02-14 15:06:17,,,In Progress
+284,Bauer Ltd,Hardware,High,2025-07-28 18:02:55,,,In Progress
+285,Vazquez-Williams,Login,Medium,2025-07-26 00:53:11,,,Open
+286,Thompson PLC,Network,High,2025-06-15 17:23:18,64.0,2025-06-18 09:23:18,Closed
+287,Roberts-Cantrell,Network,High,2025-05-10 08:21:16,61.0,2025-05-12 21:21:16,Closed
+288,Garcia-Powers,Login,Medium,2025-06-23 14:18:33,,,Open
+289,"Brandt, Castro and Fields",Hardware,High,2025-02-25 14:31:18,,,In Progress
+290,Lee-Bean,Hardware,High,2025-02-06 21:00:51,,,In Progress
+291,"Rodriguez, Burke and Garcia",Hardware,High,2025-04-11 19:21:18,,,Open
+292,Davis-Li,Software,Low,2025-08-17 18:13:15,,,In Progress
+293,Hernandez-Reilly,Login,Medium,2025-06-23 10:52:25,11.0,2025-06-23 21:52:25,Closed
+294,Ward-Jefferson,Login,Medium,2025-05-04 18:33:41,,,In Progress
+295,Smith Group,Software,Low,2025-02-06 01:52:52,,,In Progress
+296,"Norris, Fisher and Sellers",Network,High,2025-04-09 15:09:09,,,Open
+297,Villanueva-Jones,Login,Medium,2025-06-06 23:25:49,68.0,2025-06-09 19:25:49,Closed
+298,Dawson Ltd,Hardware,High,2025-04-14 22:43:55,,,In Progress
+299,"Key, Hansen and Singh",Login,Medium,2025-08-03 14:45:56,,,Open
+300,Davis Group,Software,Low,2025-08-16 19:18:50,20.0,2025-08-17 15:18:50,Closed
+301,"Rodriguez, Kim and Olson",Login,Medium,2025-04-25 07:47:30,12.0,2025-04-25 19:47:30,Closed
+302,Hall-Davies,Hardware,High,2025-07-10 13:54:47,,,Open
+303,Jones-Watson,Login,Medium,2025-03-22 01:45:15,,,In Progress
+304,"Young, Hendricks and Snyder",Login,Medium,2025-08-21 20:27:05,,,Open
+305,"Davis, Ayala and Moore",Login,Medium,2025-06-19 16:54:48,,,Open
+306,"Hicks, Colon and Rodriguez",Hardware,High,2025-06-03 10:59:00,,,Open
+307,Hudson-Payne,Login,Medium,2025-02-27 19:10:54,,,In Progress
+308,Wilson and Sons,Network,High,2025-08-03 00:42:24,54.0,2025-08-05 06:42:24,Closed
+309,Watson-Torres,Hardware,High,2025-06-02 13:07:41,36.0,2025-06-04 01:07:41,Closed
+310,Clark Inc,Software,Low,2025-01-29 19:40:20,,,Open
+311,"Cox, Young and Bell",Network,High,2025-05-17 15:59:48,,,Open
+312,Dominguez and Sons,Network,High,2025-01-28 21:34:00,,,In Progress
+313,Miller-Martinez,Hardware,High,2025-02-02 10:51:52,,,In Progress
+314,Gordon Group,Software,Low,2025-04-10 17:59:22,,,Open
+315,Martinez-Torres,Network,High,2025-06-28 07:45:33,,,Open
+316,Jackson LLC,Network,High,2025-08-16 13:45:53,17.0,2025-08-17 06:45:53,Closed
+317,Hernandez Inc,Software,Low,2025-04-04 20:35:59,,,In Progress
+318,"Moses, Farley and Osborn",Hardware,High,2025-04-26 16:29:36,,,Open
+319,Le-Ponce,Software,Low,2025-05-21 19:01:25,,,In Progress
+320,Boyer PLC,Login,Medium,2025-05-30 21:53:09,,,In Progress
+321,Oliver LLC,Network,High,2025-05-09 16:21:40,,,In Progress
+322,"Ferguson, Thomas and Patel",Network,High,2025-01-26 13:49:26,64.0,2025-01-29 05:49:26,Closed
+323,Watts LLC,Network,High,2025-04-29 08:48:57,,,In Progress
+324,Woods Group,Software,Low,2025-05-31 15:49:05,19.0,2025-06-01 10:49:05,Closed
+325,"Mullen, Anderson and Singleton",Login,Medium,2025-09-02 03:21:16,,,Open
+326,"Hall, Rodriguez and Collins",Hardware,High,2025-04-16 12:53:38,59.0,2025-04-18 23:53:38,Closed
+327,Moss-Young,Hardware,High,2025-09-02 15:28:13,,,In Progress
+328,"Lucas, Thompson and James",Login,Medium,2025-07-07 01:59:33,,,In Progress
+329,Ramirez-Clark,Login,Medium,2025-04-02 07:42:47,28.0,2025-04-03 11:42:47,Closed
+330,"Robinson, Khan and Perez",Network,High,2025-04-26 01:08:49,,,In Progress
+331,Bell-Hamilton,Hardware,High,2025-01-22 13:26:53,,,Open
+332,"Nunez, Moore and Mann",Network,High,2025-01-16 14:51:50,41.0,2025-01-18 07:51:50,Closed
+333,Harris-Hopkins,Network,High,2025-01-03 02:36:26,,,In Progress
+334,Brennan-Williams,Hardware,High,2025-05-18 19:01:49,,,Open
+335,Cooley LLC,Software,Low,2025-05-08 23:19:47,,,Open
+336,White Group,Hardware,High,2025-07-15 14:03:57,,,In Progress
+337,Villa Group,Software,Low,2025-01-06 09:53:50,,,Open
+338,Cline-Murphy,Hardware,High,2025-02-06 00:36:57,,,Open
+339,Smith-Woods,Hardware,High,2025-07-30 02:31:34,42.0,2025-07-31 20:31:34,Closed
+340,"Edwards, Hill and Graham",Network,High,2025-05-23 13:47:54,,,Open
+341,Erickson Inc,Hardware,High,2025-06-01 04:24:33,,,Open
+342,Davis Group,Network,High,2025-07-19 08:26:30,,,Open
+343,Andrews-Shelton,Login,Medium,2025-06-14 07:04:38,33.0,2025-06-15 16:04:38,Closed
+344,Martin-Boyd,Software,Low,2025-08-02 08:36:11,,,In Progress
+345,Acevedo-Taylor,Login,Medium,2025-08-16 05:57:13,,,Open
+346,Santos and Sons,Login,Medium,2025-08-07 22:00:39,,,In Progress
+347,Greene-Rodriguez,Hardware,High,2025-06-25 17:21:59,,,In Progress
+348,Shaffer-Greer,Network,High,2025-01-12 04:17:57,,,Open
+349,Williams-Coleman,Software,Low,2025-04-05 19:25:00,,,In Progress
+350,"Gay, Wells and Short",Login,Medium,2025-03-21 11:56:07,,,In Progress
+351,Acosta-Alexander,Hardware,High,2025-01-02 15:19:48,41.0,2025-01-04 08:19:48,Closed
+352,Bolton Inc,Hardware,High,2025-06-04 22:20:20,,,Open
+353,"Williams, Hobbs and Moore",Software,Low,2025-07-31 01:03:10,,,In Progress
+354,"Young, Jenkins and Cox",Network,High,2025-06-14 09:40:22,9.0,2025-06-14 18:40:22,Closed
+355,"Calhoun, Nash and Brown",Network,High,2025-01-14 06:02:52,40.0,2025-01-15 22:02:52,Closed
+356,"Jackson, Schwartz and Ford",Hardware,High,2025-02-03 01:02:31,,,Open
+357,Anderson-Lawrence,Hardware,High,2025-02-27 02:04:00,,,Open
+358,"Flores, Lewis and Schneider",Login,Medium,2025-08-07 20:44:25,,,Open
+359,Rowe and Sons,Login,Medium,2025-06-29 06:27:57,,,In Progress
+360,Jones-Murray,Hardware,High,2025-05-19 06:29:52,15.0,2025-05-19 21:29:52,Closed
+361,Ward and Sons,Hardware,High,2025-06-18 06:37:19,,,In Progress
+362,Williamson Inc,Network,High,2025-02-01 16:29:29,,,Open
+363,Lee LLC,Hardware,High,2025-08-23 20:41:29,,,In Progress
+364,Hale Group,Network,High,2025-07-22 10:26:48,,,In Progress
+365,"Le, Lopez and Bailey",Hardware,High,2025-07-23 09:20:15,,,In Progress
+366,Price-Foster,Login,Medium,2025-01-02 03:34:42,,,Open
+367,"Dyer, Martinez and Hansen",Software,Low,2025-05-03 09:28:08,,,Open
+368,"Nelson, Lewis and Tapia",Login,Medium,2025-02-05 07:25:27,22.0,2025-02-06 05:25:27,Closed
+369,"Wilcox, Contreras and Dean",Login,Medium,2025-03-08 17:57:13,,,Open
+370,Ramirez-Martinez,Hardware,High,2025-04-05 06:05:31,,,Open
+371,Henderson Group,Hardware,High,2025-03-25 01:07:27,24.0,2025-03-26 01:07:27,Closed
+372,Bauer and Sons,Software,Low,2025-03-01 06:22:42,,,In Progress
+373,Gallagher Ltd,Network,High,2025-05-15 23:50:43,,,Open
+374,Williams Group,Software,Low,2025-01-07 22:27:26,3.0,2025-01-08 01:27:26,Closed
+375,Evans-Baker,Hardware,High,2025-02-13 11:52:53,,,In Progress
+376,Parker-Cobb,Software,Low,2025-03-15 03:16:47,,,Open
+377,Velez LLC,Software,Low,2025-05-12 12:36:29,,,In Progress
+378,Parsons PLC,Login,Medium,2025-05-19 14:15:27,,,In Progress
+379,Patterson PLC,Network,High,2025-03-11 21:23:25,,,Open
+380,Rice Ltd,Network,High,2025-04-07 18:19:48,,,In Progress
+381,"Wood, Wilson and Miller",Software,Low,2025-08-01 10:01:41,72.0,2025-08-04 10:01:41,Closed
+382,Warner-Richardson,Login,Medium,2025-08-01 11:16:34,26.0,2025-08-02 13:16:34,Closed
+383,Valdez LLC,Software,Low,2025-04-11 23:16:46,49.0,2025-04-14 00:16:46,Closed
+384,Shaw-Michael,Software,Low,2025-03-14 12:54:25,8.0,2025-03-14 20:54:25,Closed
+385,Cameron LLC,Network,High,2025-01-27 12:22:29,47.0,2025-01-29 11:22:29,Closed
+386,Brown-Watkins,Hardware,High,2025-08-04 04:24:19,,,In Progress
+387,Barrett Ltd,Login,Medium,2025-05-31 04:44:55,,,In Progress
+388,"Flores, Oconnell and Thornton",Network,High,2025-07-14 20:26:16,25.0,2025-07-15 21:26:16,Closed
+389,Tapia Group,Software,Low,2025-04-24 12:20:38,13.0,2025-04-25 01:20:38,Closed
+390,Perry-Watts,Hardware,High,2025-02-04 23:44:39,44.0,2025-02-06 19:44:39,Closed
+391,Ball-Franklin,Login,Medium,2025-05-22 01:51:33,,,In Progress
+392,"Miller, Baker and Love",Hardware,High,2025-02-14 03:34:22,,,Open
+393,Smith PLC,Network,High,2025-01-20 09:43:02,30.0,2025-01-21 15:43:02,Closed
+394,Pena Ltd,Hardware,High,2025-06-19 17:55:03,,,In Progress
+395,"Riggs, Moore and Harris",Network,High,2025-07-25 08:57:47,,,Open
+396,"Garcia, Adkins and Howard",Software,Low,2025-03-09 15:13:44,48.0,2025-03-11 15:13:44,Closed
+397,Reyes-Morris,Network,High,2025-08-20 21:25:44,,,Open
+398,"Brooks, Wright and Reid",Network,High,2025-02-25 02:55:01,,,In Progress
+399,Padilla Group,Software,Low,2025-02-24 20:00:34,30.0,2025-02-26 02:00:34,Closed
+400,Carter-Christensen,Software,Low,2025-04-09 10:26:09,57.0,2025-04-11 19:26:09,Closed
+401,"Stuart, Simpson and Williams",Software,Low,2025-09-01 15:42:21,29.0,2025-09-02 20:42:21,Closed
+402,Combs Ltd,Network,High,2025-07-09 13:03:17,,,In Progress
+403,"Martin, Harris and Mccoy",Hardware,High,2025-08-09 18:39:02,,,Open
+404,"Harvey, Myers and Mcmahon",Software,Low,2025-02-08 19:39:28,34.0,2025-02-10 05:39:28,Closed
+405,Lynch LLC,Login,Medium,2025-04-21 11:08:41,57.0,2025-04-23 20:08:41,Closed
+406,"Ross, Palmer and Thompson",Software,Low,2025-04-04 21:06:16,,,In Progress
+407,Randolph Ltd,Hardware,High,2025-01-20 11:37:17,,,In Progress
+408,Elliott LLC,Login,Medium,2025-05-11 15:34:47,,,Open
+409,Stewart-Williams,Login,Medium,2025-03-31 07:03:46,38.0,2025-04-01 21:03:46,Closed
+410,Price-Brooks,Hardware,High,2025-08-27 18:54:18,,,Open
+411,"Larson, Parker and Gardner",Login,Medium,2025-03-17 07:40:44,,,In Progress
+412,"Haynes, Jones and Gregory",Hardware,High,2025-05-02 07:09:27,,,In Progress
+413,"Campbell, Knight and Jackson",Software,Low,2025-01-22 11:35:31,64.0,2025-01-25 03:35:31,Closed
+414,Delgado-Solis,Hardware,High,2025-08-11 01:02:06,21.0,2025-08-11 22:02:06,Closed
+415,Malone LLC,Network,High,2025-04-20 00:36:03,,,Open
+416,Brown Inc,Login,Medium,2025-01-10 01:49:15,,,Open
+417,"Willis, Johnson and Baldwin",Software,Low,2025-06-18 11:00:23,,,In Progress
+418,Jackson-Lynch,Network,High,2025-06-26 19:01:48,57.0,2025-06-29 04:01:48,Closed
+419,Clark-Zhang,Network,High,2025-04-19 04:47:54,7.0,2025-04-19 11:47:54,Closed
+420,Beck-Moon,Software,Low,2025-05-11 09:24:33,45.0,2025-05-13 06:24:33,Closed
+421,Tyler PLC,Software,Low,2025-07-29 07:58:12,13.0,2025-07-29 20:58:12,Closed
+422,Davis LLC,Hardware,High,2025-05-15 02:26:57,,,In Progress
+423,Kramer Ltd,Hardware,High,2025-02-18 04:40:56,,,In Progress
+424,Tucker-Levine,Network,High,2025-04-21 03:10:42,52.0,2025-04-23 07:10:42,Closed
+425,Landry-Brennan,Software,Low,2025-07-26 20:19:20,,,Open
+426,"Young, Green and Simpson",Login,Medium,2025-07-18 11:55:36,,,In Progress
+427,Miller and Sons,Hardware,High,2025-01-28 17:48:11,,,Open
+428,Hunt-Fleming,Login,Medium,2025-06-27 09:59:36,,,Open
+429,"Hall, Lewis and Murray",Login,Medium,2025-03-24 03:58:25,14.0,2025-03-24 17:58:25,Closed
+430,Lane Ltd,Software,Low,2025-01-10 03:05:00,32.0,2025-01-11 11:05:00,Closed
+431,"Harris, Jones and Turner",Network,High,2025-08-21 05:15:30,,,Open
+432,Wallace-Vincent,Hardware,High,2025-08-15 00:23:15,,,In Progress
+433,Collins-Rice,Login,Medium,2025-05-18 18:03:18,,,Open
+434,"Hanna, Bell and Hill",Login,Medium,2025-04-16 10:03:32,29.0,2025-04-17 15:03:32,Closed
+435,White-Ballard,Login,Medium,2025-04-28 20:13:11,,,In Progress
+436,Perkins-Ward,Network,High,2025-03-30 11:11:23,19.0,2025-03-31 06:11:23,Closed
+437,"French, Mann and Collins",Software,Low,2025-03-30 16:47:07,,,Open
+438,"Norton, Mullins and Moyer",Hardware,High,2025-05-11 21:16:09,,,Open
+439,Wright Ltd,Software,Low,2025-05-06 06:45:27,,,In Progress
+440,Blake-Robinson,Hardware,High,2025-03-25 07:56:24,,,Open
+441,Wilson-Brown,Hardware,High,2025-02-19 11:27:39,,,Open
+442,"Hancock, Wood and Farmer",Hardware,High,2025-07-26 02:49:52,,,In Progress
+443,Bradley PLC,Software,Low,2025-01-20 10:54:41,,,Open
+444,"Miller, Frank and Johnson",Network,High,2025-03-28 21:58:36,54.0,2025-03-31 03:58:36,Closed
+445,Gordon and Sons,Login,Medium,2025-08-06 18:58:47,,,Open
+446,"Rosales, Garcia and Robles",Login,Medium,2025-03-25 04:13:58,,,In Progress
+447,Rowland-Casey,Login,Medium,2025-06-04 00:57:19,4.0,2025-06-04 04:57:19,Closed
+448,"Byrd, Vazquez and Gibson",Network,High,2025-07-08 17:51:41,,,In Progress
+449,"Thornton, Jones and Sharp",Hardware,High,2025-02-22 08:33:37,,,Open
+450,Larson-Thomas,Login,Medium,2025-01-01 23:56:29,,,Open
+451,Phillips PLC,Network,High,2025-06-07 17:01:32,34.0,2025-06-09 03:01:32,Closed
+452,"Mitchell, Oconnell and Garcia",Login,Medium,2025-04-23 13:46:55,,,Open
+453,Welch-Smith,Hardware,High,2025-04-01 18:44:09,,,Open
+454,Brown PLC,Hardware,High,2025-03-30 07:06:10,14.0,2025-03-30 21:06:10,Closed
+455,"Hutchinson, Tucker and Chen",Network,High,2025-04-22 22:31:25,,,Open
+456,"Miles, Nguyen and Smith",Network,High,2025-03-08 15:15:36,14.0,2025-03-09 05:15:36,Closed
+457,"Alexander, Oconnell and Wheeler",Hardware,High,2025-04-02 05:04:03,,,Open
+458,Mann and Sons,Network,High,2025-03-13 17:15:35,,,In Progress
+459,Holland-Malone,Login,Medium,2025-02-20 11:56:46,13.0,2025-02-21 00:56:46,Closed
+460,Johnson-Reynolds,Network,High,2025-03-10 21:29:22,,,Open
+461,Gardner-Kane,Hardware,High,2025-08-22 22:11:13,,,In Progress
+462,Gonzales Inc,Hardware,High,2025-08-31 14:59:42,,,Open
+463,Brown-Lewis,Login,Medium,2025-03-17 20:29:04,21.0,2025-03-18 17:29:04,Closed
+464,Kelly-Brown,Software,Low,2025-04-29 16:43:41,,,In Progress
+465,"Carr, Mack and Gonzalez",Network,High,2025-07-28 18:04:06,,,Open
+466,Smith Inc,Software,Low,2025-07-02 15:14:16,,,In Progress
+467,"Cox, Castro and Robinson",Network,High,2025-04-08 00:25:54,14.0,2025-04-08 14:25:54,Closed
+468,"Waters, Hernandez and Taylor",Network,High,2025-01-26 22:46:03,16.0,2025-01-27 14:46:03,Closed
+469,"Brandt, Buchanan and Gillespie",Network,High,2025-07-08 06:30:06,,,Open
+470,Arellano LLC,Login,Medium,2025-04-15 15:51:03,,,Open
+471,Garcia Group,Network,High,2025-03-08 13:16:25,,,In Progress
+472,Mcdowell Group,Login,Medium,2025-05-12 16:24:23,19.0,2025-05-13 11:24:23,Closed
+473,Medina-Sellers,Login,Medium,2025-01-13 14:23:35,,,In Progress
+474,Ryan Inc,Login,Medium,2025-04-22 01:04:53,,,Open
+475,"Calhoun, Sutton and Rice",Hardware,High,2025-06-17 08:47:58,,,In Progress
+476,"Bullock, Castro and Hicks",Software,Low,2025-05-31 06:22:43,,,In Progress
+477,Henson-Gilmore,Hardware,High,2025-01-04 19:58:48,,,Open
+478,Ramirez-Hunter,Network,High,2025-07-29 08:54:58,,,Open
+479,Johnson Inc,Software,Low,2025-01-26 18:32:45,34.0,2025-01-28 04:32:45,Closed
+480,"Wright, Jones and Lewis",Login,Medium,2025-05-11 16:47:59,,,In Progress
+481,George-Smith,Software,Low,2025-02-20 15:31:43,,,In Progress
+482,Sharp Inc,Network,High,2025-05-29 19:55:55,4.0,2025-05-29 23:55:55,Closed
+483,Boyd-Walsh,Software,Low,2025-04-11 13:26:43,14.0,2025-04-12 03:26:43,Closed
+484,"Gutierrez, Ortiz and Washington",Hardware,High,2025-01-18 05:58:49,,,In Progress
+485,"Brown, Smith and Hall",Software,Low,2025-07-19 19:36:24,30.0,2025-07-21 01:36:24,Closed
+486,"Scott, Rios and Lewis",Hardware,High,2025-03-23 10:24:06,,,Open
+487,Smith-Moore,Network,High,2025-06-27 04:07:58,,,Open
+488,Bryan Ltd,Network,High,2025-05-24 23:10:42,,,Open
+489,"White, Moore and Ellis",Software,Low,2025-08-01 04:23:36,68.0,2025-08-04 00:23:36,Closed
+490,"Robinson, Wallace and Henry",Software,Low,2025-03-22 09:25:06,,,In Progress
+491,Newton and Sons,Software,Low,2025-03-13 21:26:29,62.0,2025-03-16 11:26:29,Closed
+492,Lee-Johnson,Network,High,2025-01-25 23:24:39,50.0,2025-01-28 01:24:39,Closed
+493,Wells and Sons,Network,High,2025-08-10 17:56:15,2.0,2025-08-10 19:56:15,Closed
+494,"Martin, Reynolds and Medina",Network,High,2025-08-30 03:17:58,,,Open
+495,Jones-Jones,Login,Medium,2025-07-10 06:44:04,8.0,2025-07-10 14:44:04,Closed
+496,Burton Ltd,Login,Medium,2025-04-17 16:38:09,66.0,2025-04-20 10:38:09,Closed
+497,Douglas-Benitez,Software,Low,2025-01-20 08:19:50,,,In Progress
+498,"Harrell, Cooper and Lee",Hardware,High,2025-01-02 12:55:16,,,Open
+499,Walter PLC,Software,Low,2025-02-14 14:52:13,,,Open
+500,Myers-Vasquez,Login,Medium,2025-05-18 15:06:29,46.0,2025-05-20 13:06:29,Closed
