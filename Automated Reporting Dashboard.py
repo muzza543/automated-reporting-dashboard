@@ -1,7 +1,9 @@
+from tkinter.filedialog import asksaveasfilename
 from faker import Faker
 import pandas as pd
 import random
 from datetime import timedelta
+from tkinter import Tk
 import os
 
 '''Create fake data to use for the automated reporting dashboard using the Faker Library whilst Panda will be used to export the data to a CSV file'''
@@ -9,6 +11,7 @@ import os
 fake = Faker() #create an instance of the Faker class 
 data = [] #python list of dictionaries hence 1 dictionary equivalent to 1 ticket
 count = 500 #number of tickets to generate
+Tk().withdraw()
 
 
 '''Issue priority map to automatically set the priority of the issue based on the issue type'''
@@ -146,21 +149,32 @@ priority_distribution['percentage'] = (priority_distribution['count'] / total_ti
 sla_threshold = 24
 df['within_sla'] = df['resolution_time'].apply(lambda x: 1 if x is not None and x <= sla_threshold else 0) #this creates a new column called within_sla which is 1 if the resolution time is within the SLA threshold and 0 otherwise
 
+#asks the user where to save the excel file
+path = asksaveasfilename(
+    defaultextension = ".xlsx",
+    filetypes = [("Excel files", "*.xlsx")],
+    title = "Save Excel File As"
+)
+
+
 # Save all files
 print("\nSaving files...")
 
 excel_file = "tickets_tracking.xlsx"
 '''This code saves all the dataframes into a single excel file using multiple sheets. Utilises pandas.Excelwriter function with the openpyxl engine. This hence means its best to keep it to only open as on excel and remove options to open in different applications '''
+if path:
+    with pd.ExcelWriter(path, engine = "openpyxl") as writer: #using openpyxl engine to write to excel
+        df.to_excel(writer, sheet_name = "Tickets", index = False) #all tickets data
+        kpi_df.to_excel(writer, sheet_name = "KPI Summary", index = False) #KPI summary data
+        daily_summary.to_excel(writer, sheet_name = "Daily Ticket Trends", index = False) #daily ticket trends data
+        issue_distribution.to_excel(writer, sheet_name = "Issue Type Distribution", index = False) #issue type distribution data
+        priority_distribution.to_excel(writer, sheet_name = "Priority Distribution", index = False) #priority distribution data
 
-with pd.ExcelWriter(excel_file, engine = "openpyxl") as writer: #using openpyxl engine to write to excel
-    df.to_excel(writer, sheet_name = "Tickets", index = False) #all tickets data
-    kpi_df.to_excel(writer, sheet_name = "KPI Summary", index = False) #KPI summary data
-    daily_summary.to_excel(writer, sheet_name = "Daily Ticket Trends", index = False) #daily ticket trends data
-    issue_distribution.to_excel(writer, sheet_name = "Issue Type Distribution", index = False) #issue type distribution data
-    priority_distribution.to_excel(writer, sheet_name = "Priority Distribution", index = False) #priority distribution data
-
-#Save all the files 
-print(f"\nAll files saved successfully into {excel_file}.")
+    #Save all the files 
+    print(f"\nAll files saved successfully into {path}.")
+else:
+    print("No file path provided. Files not saved.")
+    exit()
 
 
 
