@@ -126,6 +126,13 @@ daily_summary[['tickets_opened', 'tickets_closed']] = daily_summary[['tickets_op
 daily_summary['date'] = pd.to_datetime(daily_summary['date']) #convert to datetime
 daily_summary = daily_summary.sort_values('date') #sort by date
 
+daily_summary['year'] = daily_summary['date'].dt.year
+daily_summary['month'] = daily_summary['date'].dt.month
+daily_summary['month_name'] = daily_summary['date'].dt.strftime('%B') #full month name
+daily_summary['week'] = daily_summary['date'].dt.isocalendar().week #week number of the year
+daily_summary['day'] = daily_summary['date'].dt.day #day of the month
+
+
 # Issue type distribution
 issue_distribution = df['issue_type'].value_counts().reset_index() #count of each issue type
 issue_distribution.columns = ['issue_type', 'count'] #to rename the columns
@@ -136,11 +143,15 @@ priority_distribution = df['priority'].value_counts().reset_index()
 priority_distribution.columns = ['priority', 'count']
 priority_distribution['percentage'] = (priority_distribution['count'] / total_tickets) * 100
 
+sla_threshold = 24
+df['within_sla'] = df['resolution_time'].apply(lambda x: 1 if x is not None and x <= sla_threshold else 0) #this creates a new column called within_sla which is 1 if the resolution time is within the SLA threshold and 0 otherwise
+
 # Save all files
 print("\nSaving files...")
 
 excel_file = "tickets_tracking.xlsx"
 '''This code saves all the dataframes into a single excel file using multiple sheets. Utilises pandas.Excelwriter function with the openpyxl engine. This hence means its best to keep it to only open as on excel and remove options to open in different applications '''
+
 with pd.ExcelWriter(excel_file, engine = "openpyxl") as writer: #using openpyxl engine to write to excel
     df.to_excel(writer, sheet_name = "Tickets", index = False) #all tickets data
     kpi_df.to_excel(writer, sheet_name = "KPI Summary", index = False) #KPI summary data
